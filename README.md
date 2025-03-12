@@ -13,7 +13,7 @@ This project simulates a smart traffic management system for a three-road juncti
 ## File Structure
 ```
 |-- project_data.csv   # Input data file containing vehicle arrivals
-|-- circular_queue_traffic.c  # Main C program implementing the simulation
+|-- Project.c  # Main C program implementing the simulation
 |-- README.md           # Project documentation
 ```
 
