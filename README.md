@@ -4,7 +4,7 @@
 This project simulates a smart traffic management system for a three-road junction using circular queues. The simulation is based on real-world traffic data provided in a CSV file. The goal is to determine optimal traffic light timings to improve vehicle flow efficiency.
 
 ## Features
-- Reads vehicle arrival data from `project4_data.csv`.
+- Reads vehicle arrival data from `project_data.csv`.
 - Uses circular queues (array implementation) to manage vehicle movement.
 - Simulates traffic light changes and vehicle flow at the junction.
 - Dynamically processes vehicle arrivals and departures based on light timing.
@@ -12,7 +12,7 @@ This project simulates a smart traffic management system for a three-road juncti
 
 ## File Structure
 ```
-|-- project4_data.csv   # Input data file containing vehicle arrivals
+|-- project_data.csv   # Input data file containing vehicle arrivals
 |-- circular_queue_traffic.c  # Main C program implementing the simulation
 |-- README.md           # Project documentation
 ```
@@ -21,7 +21,7 @@ This project simulates a smart traffic management system for a three-road juncti
 ### Compilation
 Use a C compiler such as `gcc`:
 ```bash
-gcc circular_queue_traffic.c -o traffic_sim
+gcc Project.c -o traffic_sim
 ```
 
 ### Execution
@@ -32,7 +32,7 @@ Run the program with:
 Ensure that `project4_data.csv` is in the same directory as the executable.
 
 ## Input Format
-The input CSV file (`project4_data.csv`) follows this format:
+The input CSV file (`project_data.csv`) follows this format:
 ```
 Road,Vehicle,Time
 Road 1,Vehicle 102,0.48
